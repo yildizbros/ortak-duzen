@@ -17,6 +17,9 @@ Proje sahibi coğrafya öğretmenidir, kod bilmez, Türkçe yazar. Kısa, sade T
 - **Devir notu** en çok 300 kelime: ne bitti, açık kararlar, sonraki oturumun bilmesi gerekenler, sonraya bırakılanlar. Şablon: `devir-ve-durum` becerisi.
 - Kod sık gönderilir (konteyner kapanınca gönderilmemiş iş kaybolur).
 
+## Belgeler
+Her oturumda okunan dosyalar küçük kalır (CLAUDE.md ≈ 7 KB); başvuru belgeleri bölüm bölüm (`grep`) okunur; belge yerinde güncellenir, günlük gibi sona eklenmez. Boyut tavanı projeye göre değişir ve projenin kendi bekçisinde yazılır.
+
 ## Test
 Kademeli koş: **hızlı** (değişen dosyaya eşlenen) → **adım** → **tam** (yalnız son adımda ya da Eser isterse). Uzun koşu arka planda; ilk kırmızıda dur, düzelt, `devam` ile sürdür. **Kırmızı test varken sonraki adıma geçilmez.** Ayrıntı: `kademeli-test` becerisi. Tasarım/metin değişince eski testi aynı adımda güncelle.
 
