@@ -1,0 +1,7 @@
+{
+  "name": "yildizbros",
+  "owner": { "name": "yildizbros" },
+  "plugins": [
+    { "name": "ortak-duzen", "source": "./plugins/ortak-duzen", "description": "Projelerden bağımsız çalışma düzeni (kurallar ve genel beceriler)" }
+  ]
+}
