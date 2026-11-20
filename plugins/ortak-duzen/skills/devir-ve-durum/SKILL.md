@@ -12,8 +12,14 @@ description: Adım bitince ya da karar alınınca devir notu yazarken ve DURUM.m
 ## Yapılanlar
 ## Sabit dosyalarda değişen  (ne değişti ya da "yok")
 ## Bilerek yapılmayanlar / Sonraya bırakılanlar
-## Test sonuçları  (sayılar, süre)
+## Test sonuçları  (sayılar, süre; "Test sayısı: önce → sonra", "Borç: önce → sonra")
 ## Sonraki oturuma uyarılar ve açık kararlar
 ## Eser'in yapacakları  (madde madde)
 ```
-Son mesaj Eser'e: ne değişti (3–5 madde), test sonucu, yapacakları.
+Son mesaj Eser'e: ne değişti (3–5 madde), test sonucu, Eser'in yapacakları (madde madde).
+
+**Sabit belgeler** yerinde güncellenir: sona günlük eklenmez, kalkan cümle silinir.
+**Plan kutusu** (☐ → ☑) adımın kendi commit'indedir; DURUM.md yalnız "sıradaki" değiştiyse.
+**Bekleyen işler** tek listede (≤ 10 madde, `ortak.md` "Kayıt"). **Paketin son oturumu** temizlik yapar: devir notları ve teslim arşive, plan satırları silinir, liste gözden geçirilir.
+
+**Ne zaman kullanma:** adım ortasında ara not için (kesilme riski yoksa).
