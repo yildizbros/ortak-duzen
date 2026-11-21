@@ -29,7 +29,7 @@ Her oturumda okunan dosyalar küçük kalır (CLAUDE.md ≈ 7 KB); başvuru belg
 Kademeli koş: **hızlı** (değişen dosyaya eşlenen) → **adım** → **tam** (yalnız son adımda ya da Eser isterse). Uzun koşu arka planda; ilk kırmızıda dur, düzelt, `devam` ile sürdür. **Kırmızı test varken sonraki adıma geçilmez.** Ayrıntı: `kademeli-test` becerisi. Tasarım/metin değişince eski testi aynı adımda güncelle.
 
 ## Ekran ve inceleme
-Ekran görüntüsü ve inceleme yalnız **paket sonunda** (ara adımda görüntü açılmaz, "önceki" görüntü alınmaz).
+Ekran görüntüsü ve inceleme yalnız **paket sonunda** (ara adımda görüntü açılmaz, "önceki" görüntü alınmaz). Ara adımın plan satırında görüntü, inceleme, birleştirme ya da yayın yazsa da uygulanmaz; kural satırdan önceliklidir, yönetici sabah raporuna yazar.
 
 ## Dal, birleştirme, yayın
 Oturum yalnız kendi dalına yazar. `main`'e birleştirme ve yayın **yalnız Eser'in o anki açık sözüyle**; önceki onay sonrakine geçmez. Birleşen dala bir daha yazılmaz (DURUM.md birleştirmeden önce yazılır). Yasak: `git push --force`, geçmişi yeniden yazma, `git branch -D`. Ayrıntı: `dal-ve-birlestirme`.
