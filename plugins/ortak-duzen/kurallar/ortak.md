@@ -28,6 +28,7 @@ Her oturumda okunan dosyalar küçük kalır (CLAUDE.md ≈ 7 KB); başvuru belg
 ## Test
 Kademeli koş: **hızlı** (değişen dosyaya eşlenen) → **adım** → **tam** (yalnız son adımda ya da Eser isterse). Uzun koşu arka planda; ilk kırmızıda dur, düzelt, `devam` ile sürdür. **Kırmızı test varken sonraki adıma geçilmez.** Ayrıntı: `kademeli-test` becerisi. Tasarım/metin değişince eski testi aynı adımda güncelle.
 **Yeni test önce kırmızı görülür:** yeni ya da değişen denetim bir kez kalmalı (düzeltmeden önce koş ya da kodu geçici boz, sonra geri al); kalmıyorsa hiçbir şey yakalamıyordur, yeniden yaz. Test, kodun ürettiği değeri kendi kopyasıyla karşılaştırmaz; davranışı (ekranda ne görünür, ne kaydedilir) sınar. Devir notuna "kırmızı görüldü" yazılır.
+**Test yalnız kod değiştiğinde koşar.** Artifact, inceleme sayfası ve belge işinde test koşulmaz. **Paket sonu sırası:** inceleme sayfası → Eser'in notları → düzeltmeler (kod değişirse hızlı test) → tam test en sonda → kural yayını/birleştirme sorusu. Eser'in notları gelmeden tam test koşulmaz.
 
 ## Ekran ve inceleme
 Ekran görüntüsü ve inceleme yalnız **paket sonunda** (ara adımda görüntü açılmaz, "önceki" görüntü alınmaz).
