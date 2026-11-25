@@ -7,7 +7,7 @@ Proje sahibi coğrafya öğretmenidir, kod bilmez, Türkçe yazar. Kısa, sade T
 ## Oturum
 - **Adım = oturum.** Bir oturum bir iş; bitince kapanır. Aynı konudaki çok küçük adımlar tek oturumda birleştirilebilir (mikro adım yok).
 - **Ad:** `<PROJE kısaltması> · <tür> · <konu>` (tür: adım kodu, `Yönetim`, `Yayın`, `Fikir`; bilgisayardaki oturumun sonuna `(yerel)`).
-- **Model:** Fable: tasarım, prototip, karar · Opus: zor kod adımı, kodlama planı · Sonnet: kararı hazır işler, kolay kod, test, bütün yönetim oturumları. İş oturumun modeline uymuyorsa ilk mesajda söyle, işe başlama. İş türü oturum içinde değişirse model değiştirilmez: devir notu yaz, yeni oturum öner.
+- **Model:** Opus: tasarım, prototip, karar, zor kod adımı, kodlama planı · Sonnet: kararı hazır işler, kolay kod, test, bütün yönetim oturumları. İş oturumun modeline uymuyorsa ilk mesajda söyle, işe başlama. İş türü oturum içinde değişirse model değiştirilmez: devir notu yaz, yeni oturum öner.
 - **Uzun aradan** (bir saatten fazla) sonra ya da oturum çok uzayınca yeni oturum; önce DURUM.md güncellenip gönderilir.
 - **Plan ve tek komut:** plan her adımı tek satır yapar (kod, iş, model, bağımlılık, durum kutusu ☐/☑); kutu adımın kendi commit'inde işaretlenir. Eser tek komut yazar: "Paket N'nin sıradaki adımını yürüt" (ilk boş kutu). Ortak kalıp projenin adım becerisinde, adıma özel olan satırda yazar.
 - **Plan ve tasarım oturumlarında** Eser'e sorular `AskUserQuestion` ile sorulur (seçenekli, tek mesajda).
