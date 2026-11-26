@@ -2,7 +2,7 @@
 Bu kurallar projeden bağımsızdır; her oturum başında eklenti yükler. Projeye özgü kural projenin CLAUDE.md'sindedir; çelişkide **proje kuralı önceliklidir**. Ders öğrenilince yalnız bu depo (`yildizbros/ortak-duzen`) güncellenir, projelere kopya yazılmaz.
 
 ## Eser
-Proje sahibi coğrafya öğretmenidir, kod bilmez, Türkçe yazar. Kısa, sade Türkçe yaz; teknik ayrıntıyı ancak gerekirse ver; yapması gerekenleri madde madde yaz. Sorular tek mesajda, numaralı.
+Proje sahibi coğrafya öğretmenidir, kod bilmez, Türkçe yazar. Kısa, sade Türkçe yaz; teknik ayrıntıyı ancak gerekirse ver; yapması gerekenleri madde madde yaz. Soru kuralı: "Oturum" bölümü.
 
 ## Oturum
 - **Adım = oturum, adım küçük.** Bir oturum bir iş; bitince kapanır. Bir adımda en çok **iki iş** (ör. kural + ekran, ekran + test). Plan satırı daha büyükse oturum açılmadan önce yönetici/planlayan ikiye böler. Neden: bağlam adım boyunca birikir ve her yeni adımda yeniden okunur (8.2b oturumu bağlamın %46'sına, 464 bin token'a çıktı).
@@ -11,7 +11,7 @@ Proje sahibi coğrafya öğretmenidir, kod bilmez, Türkçe yazar. Kısa, sade T
 - **Uzun aradan** (bir saatten fazla) sonra yeni oturum; önce DURUM.md güncellenip gönderilir.
 - **Bağlam tavanı %25:** oturum bağlamı %25'i geçince yapılmış işi commit edip gönderir, devir notunu (≤300 kelime) yazar ve kapanır; yeni oturum notu okuyup sürdürür. Yöneticiye durumu tek satırla bildirir.
 - **Plan ve tek komut:** plan her adımı tek satır yapar (kod, iş, model, bağımlılık, durum kutusu ☐/☑); kutu adımın kendi commit'inde işaretlenir. Eser tek komut yazar: "Paket N'nin sıradaki adımını yürüt" (ilk boş kutu). Ortak kalıp projenin adım becerisinde, adıma özel olan satırda yazar.
-- **Plan ve tasarım oturumlarında** Eser'e sorular `AskUserQuestion` ile sorulur (seçenekli, tek mesajda).
+- **Eser'e soru, her oturumda (zorunlu):** her zaman `AskUserQuestion` ile sorulur: seçenekli ekran, öneri başta, tek mesajda en çok 4 soru; Eser yazmak yerine tıklasın. Düz metin soru yalnız seçenek mümkün değilse.
 - **Gece yöneticisi:** alt oturumlara "bitince yöneticiye `send_message` ile bildir" satırını koyar; ayrıca 30 dakikada bir kendini uyandırır (yedek), iş bitince uyanışı siler. Bitişte alt oturumların devir notundaki "Haiku'ya verilen işler: N" satırına bakar, sabah raporuna yazar; N = 0 ise nedenini sorar.
 - **Kapsam:** yalnız adımdaki iş. Fikirler devir notunda "Sonraya bırakılanlar"a yazılır, uygulanmaz.
 - **Arşivleme:** işi biten, işi gönderilen, sonucu Eser'e bildirilen ve Eser'i bekleyen sorusu olmayan oturumu, oturumları yöneten oturum sormadan arşivler ve tek satırla bildirir. Şüphede arşivlenmez; başka projenin oturumuna dokunulmaz.
