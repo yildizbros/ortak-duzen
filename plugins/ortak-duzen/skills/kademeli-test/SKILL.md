@@ -9,6 +9,7 @@ description: Test koşarken (adım sonu, değişiklik sonrası, "testleri koş")
 Kurallar:
 - Projenin koşucusunu kullan (NetHarita: `kaynak/araclar/test_calistir.mjs hizli|adim <NN>|konu <ad>|devam|tam`); yoksa `package.json` betikleri.
 - **Uzun koşuyu arka planda başlat**; beklerken devir notunu ve belgeleri yaz. Çıktıyı dosyaya yönlendir, `tail` ile yalnız son ~20 satırı göster; hata varsa yalnız hatalı testin ayrıntısına bak (test koşusunu ve uzun günlük okumayı Haiku alt ajanına ver, kısa özet dönsün).
+- **Konuşmaya yalnız kırmızılar ve tek satır özet girer;** uzun günlük dosyada kalır.
 - **İlk yeni kırmızıda dur,** nedenini düzelt, baştan değil `devam` ile sürdür (geçen, dosyası değişmeyen testler tekrar koşmaz).
 - **Kırmızı varken sonraki adıma geçme.** Düzeltilemezse dur, Eser'e sor. Bilinen-kırmızı listesine yalnız Eser'in kararıyla, düzeltileceği adım yazılarak eklenir.
 - Davranış, kimlik ya da metin değişince onu arayan testleri (`grep`) bul ve aynı adımda güncelle.
